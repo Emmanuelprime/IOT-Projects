@@ -9,7 +9,7 @@
     <h1>Toggle button to control the Device</h1>
     <p>Device State: {%if dev_state%}ON{%else%}OFF{% endif%}</p>
 
-    <form action="" method="POST">
+    <form action="/toggle" method="post">
         <button type="submit">Toggle Device</button>
     </form>
     
